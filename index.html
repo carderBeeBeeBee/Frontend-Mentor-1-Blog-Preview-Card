@@ -11,16 +11,22 @@
         <title>Document</title>
     </head>
     <body>
-        <div class="container">
-            <img src="./assets/images/illustration-article.svg" alt="" class="illustration">
-            <button class="category" onclick="categoryFilter()">Learning</button>
-            <time>Published 21 Dec 2023</time>
-            <h2 class="post-title">HTML & CSS foundations</h2>
-            <p class="post-summary">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-            <button class="author" onclick="authorPosts()">
-                <img src="./assets/images/image-avatar.webp" alt="Greg Hooper profile picture" class="author-img">
-                <h3 class="author-name">Greg Hooper</h3>
-            </button>
+        <div class="wrapper">
+            <div class="container">
+                <img src="./assets/images/illustration-article.svg" alt="" class="illustration">
+                <button class="category" onclick="categoryFilter()">Learning</button>
+                <time>Published 21 Dec 2023</time>
+                <h2 class="post-title">HTML & CSS foundations</h2>
+                <p class="post-summary">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+                <button class="author" onclick="authorPosts()">
+                    <img src="./assets/images/image-avatar.webp" alt="Greg Hooper profile picture" class="author-img">
+                    <h3 class="author-name">Greg Hooper</h3>
+                </button>
+            </div>
+            <footer class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">carderBee</a>.
+            </footer>
         </div>
         <script src="./script.js"></script>
     </body>
